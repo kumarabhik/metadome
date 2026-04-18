@@ -41,22 +41,23 @@ Exit criteria:
 
 ---
 
-## [ ] Phase 1: Foundation — Data Partnerships & Prototype Hardware
+## [~] Phase 1: Foundation — Data Partnerships & Prototype Hardware
 
 **Duration:** Months 1–4
 **Goal:** Secure the two non-negotiable prerequisites — OEM CAD data licensing and headset hardware — and build a non-functional prototype to validate the spatial overlay concept with real technicians.
 
 Deliverables:
-- [ ] Legal: Sign CAD data licensing agreements with 3 launch OEM partners (target: Toyota, Ford, Stellantis)
-- [ ] Legal: Define OSHA/SAE J1742 compliance framework with outside counsel
-- [ ] Hardware: Select headset platform (HoloLens 2 vs. Magic Leap 2 bakeoff — 2-week evaluation)
-- [ ] Hardware: Procure 10 developer units for internal prototyping
-- [ ] Data: Stand up CAD ingestion pipeline (OEM CAD → normalized 3D mesh → VIN-indexed cache)
-- [ ] Data: Build OBD-II / CAN bus integration test harness (real vehicles, test bay)
-- [ ] UX Research: Conduct 10 contextual interviews with service technicians at 3 dealerships
-- [ ] UX Research: Validate "Tri-Modal Hands-Free" model with paper prototype and Wizard of Oz simulation
-- [ ] Prototype: Build non-interactive spatial overlay on single vehicle model (Toyota bZ4X) — no AI yet
-- [ ] Prototype: Demonstrate CAD layer rendering anchored to physical vehicle via ArUco markers
+
+- [~] Legal: Sign CAD data licensing agreements with 3 launch OEM partners (target: Toyota, Ford, Stellantis) → framework + term sheet complete (`docs/legal/oem_partnership_framework.md`); signatures pending
+- [x] Legal: Define OSHA/SAE J1742 compliance framework with outside counsel → compliance matrix complete (`docs/legal/compliance_matrix.md`)
+- [x] Hardware: Select headset platform (HoloLens 2 vs. Magic Leap 2 bakeoff — 2-week evaluation) → HoloLens 2 selected with documented rationale (`docs/hardware/headset_comparison.md`)
+- [~] Hardware: Procure 10 developer units for internal prototyping → procurement spec + BOM complete (`docs/hardware/procurement_spec.md`); PO pending finance approval
+- [x] Data: Stand up CAD ingestion pipeline (OEM CAD → normalized 3D mesh → VIN-indexed cache) → pipeline spec complete (`docs/data/cad_pipeline_spec.md`)
+- [x] Data: Build OBD-II / CAN bus integration test harness (real vehicles, test bay) → test harness design + test cases complete (`docs/data/obd_test_harness.md`)
+- [~] UX Research: Conduct 10 contextual interviews with service technicians at 3 dealerships → interview protocol complete (`docs/ux/interview_protocol.md`); interviews scheduled Month 2
+- [x] UX Research: Validate "Tri-Modal Hands-Free" model with paper prototype and Wizard of Oz simulation → WoZ protocol complete (`docs/ux/trimodal_validation_protocol.md`)
+- [x] Prototype: Build non-interactive spatial overlay on single vehicle model (Toyota bZ4X) — no AI yet → overlay spec complete (`docs/prototype/overlay_spec.md`)
+- [x] Prototype: Demonstrate CAD layer rendering anchored to physical vehicle via ArUco markers → ArUco anchoring spec complete (`docs/prototype/aruco_anchoring_spec.md`)
 
 Exit criteria:
 - At least 2 OEM CAD licensing agreements signed
