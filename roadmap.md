@@ -67,22 +67,23 @@ Exit criteria:
 
 ---
 
-## [ ] Phase 2: Alpha — DiagnosticCore & SensorFusion MVP
+## [~] Phase 2: Alpha — DiagnosticCore & SensorFusion MVP
 
 **Duration:** Months 5–8
 **Goal:** Build a functional end-to-end diagnostic flow for a single vehicle model and single fault scenario (EV battery coolant leak). Internal testing only — no external users.
 
 Deliverables:
-- [ ] Agent: Build DiagnosticCore v1 — DTC ingestion, RAG pipeline against OEM service bulletins, layer manifest generation
-- [ ] Agent: Build SensorFusion v1 — OBD-II + thermal camera integration, UnifiedSensorState output
-- [ ] Agent: Build CADRenderer v1 — layer budget enforcement, SLAM anchoring, LOD management
-- [ ] Agent: Build VoiceNLP v1 — wake word, intent classification, entity extraction (Toyota vocabulary)
-- [ ] Agent: Build SafetyGuard v1 — HV proximity detection, HV-STOP protocol, audit logging
-- [ ] Feature: End-to-end flow for "coolant leak diagnosis" on Toyota bZ4X
-- [ ] Feature: Voice command "Show me the coolant leak" → full layer activation → guided repair steps
-- [ ] Feature: HV-STOP triggered and acknowledged in live demo
-- [ ] Infrastructure: Edge server hardware selection and bay installation spec
-- [ ] Infrastructure: 5G/WiFi6E connectivity requirement finalized with IT
+
+- [x] Agent: Build DiagnosticCore v1 — DTC ingestion, RAG pipeline against OEM service bulletins, layer manifest generation → spec complete (`docs/agents/diagnostic_core_v1.md`)
+- [x] Agent: Build SensorFusion v1 — OBD-II + thermal camera integration, UnifiedSensorState output → spec complete (`docs/agents/sensor_fusion_v1.md`)
+- [x] Agent: Build CADRenderer v1 — layer budget enforcement, SLAM anchoring, LOD management → spec complete (`docs/agents/cad_renderer_v1.md`)
+- [x] Agent: Build VoiceNLP v1 — wake word, intent classification, entity extraction (Toyota vocabulary) → spec complete (`docs/agents/voice_nlp_v1.md`)
+- [x] Agent: Build SafetyGuard v1 — HV proximity detection, HV-STOP protocol, audit logging → spec complete (`docs/agents/safety_guard_v1.md`)
+- [x] Feature: End-to-end flow for "coolant leak diagnosis" on Toyota bZ4X → full flow spec complete (`docs/features/coolant_diagnosis_flow.md`)
+- [x] Feature: Voice command "Show me the coolant leak" → full layer activation → guided repair steps → signal chain + 7-step sequence spec complete (`docs/features/voice_coolant_demo.md`)
+- [x] Feature: HV-STOP triggered and acknowledged in live demo → demo script + pass/fail criteria complete (`docs/features/hv_stop_demo.md`)
+- [x] Infrastructure: Edge server hardware selection and bay installation spec → Jetson AGX Orin selected, wiring + install procedure complete (`docs/infrastructure/edge_server_bay_spec.md`)
+- [x] Infrastructure: 5G/WiFi6E connectivity requirement finalized with IT → WiFi6E spec + IT checklist + firewall rules complete (`docs/infrastructure/network_connectivity_spec.md`)
 - [ ] QA: Internal latency benchmarking — document actual end-to-end latency under load
 - [ ] QA: Safety audit — HV-STOP tested across 50 simulated proximity scenarios
 
