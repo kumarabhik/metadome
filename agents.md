@@ -187,15 +187,15 @@ The system is composed of five specialized AI agents that operate in a coordinat
                                │ IntentPacket
                                ▼
 ┌─────────────────┐   ┌────────────────────┐   ┌─────────────────┐
-│  SensorFusion   │──▶│  DiagnosticCore    │──▶│  CADRenderer    │
+│  SensorFusion   │──▶│  DiagnosticCore    │──▶│  CADRenderer   │
 │ (Data Aggregator│   │ (Reasoning Engine) │   │ (Render Pipeline│
 │  + Alerts)      │   └────────────────────┘   └─────────────────┘
 └────────┬────────┘                                      ▲
          │ ProximityAlert (60Hz)                         │ SafetyOverride
          ▼                                               │ (highest priority)
 ┌─────────────────────────────────────────────────────────────────┐
-│                        SafetyGuard                               │
-│               (Independent real-time process)                    │
+│                        SafetyGuard                              │
+│               (Independent real-time process)                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
