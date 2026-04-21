@@ -195,11 +195,11 @@ Exit criteria:
 
 ## Deferred / Backlog (Not in Current Roadmap)
 
-- [~] Consumer / at-home diagnostic version → deferred: no consumer HV safety standard exists; OEM CAD licensing is franchise-only; interim opportunity: read-only OBD-II diagnostic app (Year 3–4). Full analysis: `docs/deferred/consumer_home_diagnostic.md`
-- [~] Robotic repair integration (actuator guidance from spatial overlay) → deferred: no commercial mobile manipulation platform at service-bay precision; OSHA 1910.147 requires human LOTO; viable 2031+. Year 3–4 action: LayerManifest robotics extension partnership. Full analysis: `docs/deferred/robotic_repair_integration.md`
-- [~] Fully autonomous diagnosis without technician in loop → deferred: OSHA 1910.147 prohibits human-out-of-loop HV work; LLM reliability insufficient; liability unresolved. Near-term alternative: human-on-loop (CV step validation, Year 3–4). Full analysis: `docs/deferred/fully_autonomous_diagnosis.md`
-- [~] Aftermarket / non-OEM vehicle support → deferred: aftermarket data lacks HV zone spatial definitions required for SafetyGuard. Paths: ICE-only aftermarket tier (Year 4–5), fleet operator direct (Year 3). Full analysis: `docs/deferred/aftermarket_non_oem_support.md`
-- [~] Real-time OEM cloud calls during active repair step → deferred: 40ms latency budget has no room for cloud round-trip (75–295ms addition); OEM APIs not low-latency. Async pre-session data check viable now. Full analysis: `docs/deferred/realtime_oem_cloud_calls.md`
+- [x] Consumer / at-home diagnostic version → deferred: no consumer HV safety standard exists; OEM CAD licensing is franchise-only; interim opportunity: read-only OBD-II diagnostic app (Year 3–4). Full analysis: `docs/deferred/consumer_home_diagnostic.md`
+- [x] Robotic repair integration (actuator guidance from spatial overlay) → deferred: no commercial mobile manipulation platform at service-bay precision; OSHA 1910.147 requires human LOTO; viable 2031+. Year 3–4 action: LayerManifest robotics extension partnership. Full analysis: `docs/deferred/robotic_repair_integration.md`
+- [x] Fully autonomous diagnosis without technician in loop → deferred: OSHA 1910.147 prohibits human-out-of-loop HV work; LLM reliability insufficient; liability unresolved. Near-term alternative: human-on-loop (CV step validation, Year 3–4). Full analysis: `docs/deferred/fully_autonomous_diagnosis.md`
+- [x] Aftermarket / non-OEM vehicle support → deferred: aftermarket data lacks HV zone spatial definitions required for SafetyGuard. Paths: ICE-only aftermarket tier (Year 4–5), fleet operator direct (Year 3). Full analysis: `docs/deferred/aftermarket_non_oem_support.md`
+- [x] Real-time OEM cloud calls during active repair step → deferred: 40ms latency budget has no room for cloud round-trip (75–295ms addition); OEM APIs not low-latency. Async pre-session data check viable now. Full analysis: `docs/deferred/realtime_oem_cloud_calls.md`
 
 ---
 
